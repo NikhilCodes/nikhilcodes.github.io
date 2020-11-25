@@ -1,0 +1,27 @@
+.footer-container {
+  margin-top: 50px;
+}
+
+.footer-decorator-top {
+  height: 20px;
+  background-color: #282c34;
+  width: 30%;
+  transform: skewX(30deg) translateX(-15px);
+}
+
+.footer {
+  padding: 30px;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  flex-wrap: wrap;
+}
+
+.footer img {
+  margin-right: 30px;
+}
+
