@@ -3,6 +3,7 @@ import './styles.css';
 import githubLogo from '../../assets/github.png'
 import emailLogo from '../../assets/email.png';
 import linkedinLogo from '../../assets/linkedin.png';
+import { FaGithub, FaLinkedin, MdEmail } from "react-icons/all";
 
 export default function Footer() {
   return (
@@ -10,10 +11,10 @@ export default function Footer() {
       <div className={'footer-decorator-top'} />
       <div className={'footer'}>
         <div>&copy; {new Date().getFullYear()} Nikhil Nayak. All Rights Reserved</div>
-        <div>
-          <img src={githubLogo} height={'30px'} />
-          <img src={emailLogo} height={'30px'} />
-          <img src={linkedinLogo} height={'30px'} />
+        <div style={{ fontSize: '28px', width: '150px', display: 'flex', justifyContent: 'space-evenly' }}>
+          <FaGithub style={{cursor: 'pointer'}} onClick={() => window.open('https://github.com/NikhilCodes')} />
+          <MdEmail style={{cursor: 'pointer'}} onClick={() => window.open('mailto:nikhil.nixel@gmail.com')} />
+          <FaLinkedin style={{cursor: 'pointer'}} onClick={() => window.open('https://www.linkedin.com/in/nikhil-nayak-3b0967179/')} />
         </div>
       </div>
     </div>

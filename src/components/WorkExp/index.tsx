@@ -24,12 +24,13 @@ function WorkLogo({ url, theme, animate }: any) {
           alt={'work-exp'} src={url} height={`${100 + (animate ? 10 : 0)}px`} width={`${100 + (animate ? 10 : 0)}px`}
           style={{
             borderRadius: '50%',
-            border: !animate ? '1pt solid lightgrey' : 'none',
+            border: !animate ? '1px solid lightgrey' : 'none',
             padding: 0,
             margin: 0,
             opacity: '1',
             objectFit: 'contain'
-          }} />
+          }}
+        />
       </div>
     </div>
   );
@@ -86,9 +87,18 @@ export default function WorkExp() {
             color: '#565656',
             textAlign: 'left',
           }}>
-            <div><div style={{color: '#2d2d2d', fontWeight: 700}}>Gigsy LLP</div>SDE Intern</div>
-            <div><div style={{color: '#2d2d2d', fontWeight: 700}}>Kide</div>Web & Android Developer</div>
-            <div><div style={{color: '#2d2d2d', fontWeight: 700}}>DSC-KIIT</div>Android Developer</div>
+            <div>
+              <div style={{ color: '#2d2d2d', fontWeight: 700 }}>Gigsy LLP</div>
+              SDE Intern
+            </div>
+            <div>
+              <div style={{ color: '#2d2d2d', fontWeight: 700 }}>Kide</div>
+              Web & Android Developer
+            </div>
+            <div>
+              <div style={{ color: '#2d2d2d', fontWeight: 700 }}>DSC-KIIT</div>
+              Android Developer
+            </div>
           </div>
         </div>
       </div>
