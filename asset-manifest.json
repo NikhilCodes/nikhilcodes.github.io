@@ -1,29 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.54cc5c25.chunk.css",
-    "main.js": "/static/js/main.c455f232.chunk.js",
-    "main.js.map": "/static/js/main.c455f232.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.05a17934.js",
-    "runtime-main.js.map": "/static/js/runtime-main.05a17934.js.map",
-    "static/js/2.f4172188.chunk.js": "/static/js/2.f4172188.chunk.js",
-    "static/js/2.f4172188.chunk.js.map": "/static/js/2.f4172188.chunk.js.map",
-    "static/js/3.d895d1b2.chunk.js": "/static/js/3.d895d1b2.chunk.js",
-    "static/js/3.d895d1b2.chunk.js.map": "/static/js/3.d895d1b2.chunk.js.map",
+    "main.css": "/static/css/main.73e95c48.chunk.css",
+    "main.js": "/static/js/main.a50b2c09.chunk.js",
+    "main.js.map": "/static/js/main.a50b2c09.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b0642c04.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b0642c04.js.map",
+    "static/js/2.55b7203d.chunk.js": "/static/js/2.55b7203d.chunk.js",
+    "static/js/2.55b7203d.chunk.js.map": "/static/js/2.55b7203d.chunk.js.map",
+    "static/js/3.5b768494.chunk.js": "/static/js/3.5b768494.chunk.js",
+    "static/js/3.5b768494.chunk.js.map": "/static/js/3.5b768494.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.197df64bc55ce3ad85476b90c1db7a79.js": "/precache-manifest.197df64bc55ce3ad85476b90c1db7a79.js",
+    "precache-manifest.45c6be522cda0c83cd9621918d1b1e27.js": "/precache-manifest.45c6be522cda0c83cd9621918d1b1e27.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.54cc5c25.chunk.css.map": "/static/css/main.54cc5c25.chunk.css.map",
-    "static/js/2.f4172188.chunk.js.LICENSE.txt": "/static/js/2.f4172188.chunk.js.LICENSE.txt",
+    "static/css/main.73e95c48.chunk.css.map": "/static/css/main.73e95c48.chunk.css.map",
+    "static/js/2.55b7203d.chunk.js.LICENSE.txt": "/static/js/2.55b7203d.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/static/media/Street Cred.662b97d6.ttf",
-    "static/media/email.png": "/static/media/email.2c1a7560.png",
-    "static/media/github.png": "/static/media/github.d5c378c5.png",
-    "static/media/linkedin.png": "/static/media/linkedin.9aeaef88.png",
     "static/media/resume.pdf": "/static/media/resume.c8e83b86.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.05a17934.js",
-    "static/js/2.f4172188.chunk.js",
-    "static/css/main.54cc5c25.chunk.css",
-    "static/js/main.c455f232.chunk.js"
+    "static/js/runtime-main.b0642c04.js",
+    "static/js/2.55b7203d.chunk.js",
+    "static/css/main.73e95c48.chunk.css",
+    "static/js/main.a50b2c09.chunk.js"
   ]
 }
