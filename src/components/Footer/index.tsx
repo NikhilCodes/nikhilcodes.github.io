@@ -1,8 +1,5 @@
 import React from 'react';
 import './styles.css';
-import githubLogo from '../../assets/github.png'
-import emailLogo from '../../assets/email.png';
-import linkedinLogo from '../../assets/linkedin.png';
 import { FaGithub, FaLinkedin, MdEmail } from "react-icons/all";
 
 export default function Footer() {

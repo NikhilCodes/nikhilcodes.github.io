@@ -5,6 +5,7 @@ import Lander from "./components/Lander";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import WorkExp from "./components/WorkExp";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Lander />
       <About />
       <WorkExp />
+      <Projects />
       <Footer />
     </div>
   );

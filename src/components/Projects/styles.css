@@ -1,0 +1,51 @@
+#laptop-mockup-container {
+  width: 100%;
+  height: 42vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+#laptop-mockup {
+  position: absolute;
+  width: 80vw;
+  height: 45vw;
+}
+
+#laptop-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  width: 60.6vw;
+  height: 37vw;
+  transform: translateY(-1.3vw) translateX(0.5pt);
+  overflow-y: scroll;
+  transition-duration: 1000ms;
+  filter: brightness(0%);
+  background-color: black;
+}
+
+#laptop-content::-webkit-scrollbar {
+  display: none;
+}
+
+#laptop-content .tiles {
+  display: flex;
+  flex-direction: column;
+  height: 32.8%;
+  width: calc(60.5vw / 3 - 2px);
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  margin: 1px;
+  z-index: 10;
+  transition-duration: 200ms;
+}
+
+#laptop-content .tiles:hover {
+  filter: grayscale(40%);
+}
