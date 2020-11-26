@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.73e95c48.chunk.css",
-    "main.js": "/static/js/main.a50b2c09.chunk.js",
-    "main.js.map": "/static/js/main.a50b2c09.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b0642c04.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b0642c04.js.map",
-    "static/js/2.55b7203d.chunk.js": "/static/js/2.55b7203d.chunk.js",
-    "static/js/2.55b7203d.chunk.js.map": "/static/js/2.55b7203d.chunk.js.map",
-    "static/js/3.5b768494.chunk.js": "/static/js/3.5b768494.chunk.js",
-    "static/js/3.5b768494.chunk.js.map": "/static/js/3.5b768494.chunk.js.map",
+    "main.css": "/static/css/main.34bd3571.chunk.css",
+    "main.js": "/static/js/main.a72c06ab.chunk.js",
+    "main.js.map": "/static/js/main.a72c06ab.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.871b989c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.871b989c.js.map",
+    "static/js/2.4670f66e.chunk.js": "/static/js/2.4670f66e.chunk.js",
+    "static/js/2.4670f66e.chunk.js.map": "/static/js/2.4670f66e.chunk.js.map",
+    "static/js/3.b95cf740.chunk.js": "/static/js/3.b95cf740.chunk.js",
+    "static/js/3.b95cf740.chunk.js.map": "/static/js/3.b95cf740.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.45c6be522cda0c83cd9621918d1b1e27.js": "/precache-manifest.45c6be522cda0c83cd9621918d1b1e27.js",
+    "precache-manifest.af68f2e8534edd5d8d0219c59ad42deb.js": "/precache-manifest.af68f2e8534edd5d8d0219c59ad42deb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.73e95c48.chunk.css.map": "/static/css/main.73e95c48.chunk.css.map",
-    "static/js/2.55b7203d.chunk.js.LICENSE.txt": "/static/js/2.55b7203d.chunk.js.LICENSE.txt",
+    "static/css/main.34bd3571.chunk.css.map": "/static/css/main.34bd3571.chunk.css.map",
+    "static/js/2.4670f66e.chunk.js.LICENSE.txt": "/static/js/2.4670f66e.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/static/media/Street Cred.662b97d6.ttf",
+    "static/media/laptop-mockup.png": "/static/media/laptop-mockup.7d80cee5.png",
     "static/media/resume.pdf": "/static/media/resume.c8e83b86.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0642c04.js",
-    "static/js/2.55b7203d.chunk.js",
-    "static/css/main.73e95c48.chunk.css",
-    "static/js/main.a50b2c09.chunk.js"
+    "static/js/runtime-main.871b989c.js",
+    "static/js/2.4670f66e.chunk.js",
+    "static/css/main.34bd3571.chunk.css",
+    "static/js/main.a72c06ab.chunk.js"
   ]
 }
