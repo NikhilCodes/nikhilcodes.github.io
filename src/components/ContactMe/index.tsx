@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import emailJs, { EmailJSResponseStatus } from 'emailjs-com';
-import env from 'react-dotenv';
 import './styles.css';
 import AnimatedHeader from "../fragments/AnimatedHeader";
-import { CgSpinner, ImSpinner2 } from "react-icons/all";
+import { CgSpinner } from "react-icons/all";
+
+require('dotenv').config();
 
 export default function ContactMe() {
   useEffect(() => {
-    emailJs.init(env.EMAILJS_USERID ?? '');
+    emailJs.init(process.env.REACT_APP_EMAILJS_USERID ?? '');
   });
 
   const [name, setName] = useState('');
