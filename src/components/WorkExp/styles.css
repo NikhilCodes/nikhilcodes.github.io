@@ -27,3 +27,8 @@
   animation: ripple 2s infinite;
   position: absolute;
 }
+
+.required-skills > * {
+  margin-right: 5px;
+  margin-top: 5px;
+}

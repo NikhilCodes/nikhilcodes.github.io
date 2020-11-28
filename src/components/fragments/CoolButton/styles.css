@@ -1,4 +1,5 @@
 button {
+  font-family: Quicksand, sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -15,12 +16,27 @@ button {
   transition-duration: 200ms;
   transition-timing-function: ease;
   padding: 10px 20px;
+  justify-content: center;
 }
 
 .theme0:hover {
   border: 2.3pt solid #fff;
-  background-color: transparent;
   color: white;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.theme1 {
+  border-radius: 10px;
+  border: 1pt solid lightgrey;
+  color: dodgerblue;
+  font-size: 18px;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+  padding: 10px 25px;
+  justify-content: center;
+}
+
+.theme1:hover {
+  border: 1pt solid dodgerblue;
 }

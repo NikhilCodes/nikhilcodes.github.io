@@ -1,6 +1,16 @@
 import React from 'react';
 import './styles.css';
 import AnimatedHeader from "../fragments/AnimatedHeader";
+import {
+  DiMongodb,
+  FaNodeJs,
+  FaReact,
+  SiFirebase,
+  SiFlutter,
+  SiLinux,
+  SiPython,
+  SiTypescript
+} from "react-icons/all";
 
 function WorkLogo({ url, theme, animate }: any) {
   return (
@@ -57,9 +67,34 @@ export default function WorkExp() {
             fontWeight: 800,
             color: 'grey'
           }}>
-            <div>Oct 2020 - Present</div>
-            <div>Jan 2020 - Aug 2020</div>
-            <div>Aug 2019 - July 2020</div>
+            <div>
+              <div>Oct 2020 - Present</div>
+              <div className={'required-skills'} style={{ display: 'flex', justifyContent: 'flex-end', }}>
+                <FaReact />
+                <FaNodeJs />
+                <SiTypescript />
+                <DiMongodb />
+                <SiLinux />
+              </div>
+            </div>
+            <div>
+              <div>Jan 2020 - Aug 2020</div>
+              <div className={'required-skills'} style={{ display: 'flex', justifyContent: 'flex-end', }}>
+                <FaReact />
+                <SiFlutter />
+                <SiFirebase />
+                <SiPython />
+              </div>
+            </div>
+            <div>
+              <div>Aug 2019 - July 2020</div>
+              <div className={'required-skills'} style={{ display: 'flex', justifyContent: 'flex-end', }}>
+                <FaReact />
+                <SiFlutter />
+                <SiFirebase />
+                <SiPython />
+              </div>
+            </div>
           </div>
           <div style={{
             display: 'flex',

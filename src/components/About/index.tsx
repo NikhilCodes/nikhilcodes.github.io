@@ -16,6 +16,7 @@ export default function About() {
         Being an Open-Source enthusiast, I have built a lot of full blown projects which need knowledge in Software
         Development for both PCs and Mobile Devices (Flutter), and have also done many projects related to Web Development
         and Machine Learning which are listed in GitHub.
+        Apart from software development I also have an eye for UI/UX design.
       </p>
     </div>
   );
