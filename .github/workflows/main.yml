@@ -18,7 +18,7 @@ jobs:
     - name: Build
       run: |
         yarn install
-        yarn deploy
+        yarn build
       env:
         REACT_APP_EMAILJS_USERID: ${{ secrets.REACT_APP_EMAILJS_USERID }}
 
