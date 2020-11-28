@@ -47,6 +47,7 @@
   font-weight: 700;
   font-size: 40px;
   color: #fd0a6b;
+  justify-content: space-between;
 }
 
 .contact-window > .base > .right-section {
