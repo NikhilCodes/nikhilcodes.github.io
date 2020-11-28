@@ -1,0 +1,97 @@
+#contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-window {
+  width: 80vh;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px #4e4e4e;
+}
+
+.contact-window > .title {
+  width: 100%;
+  padding: 14px;
+  background-color: #3a383b;
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px 12px 0 0;
+}
+
+.contact-window > .base {
+  width: 100%;
+  padding: 14px;
+  flex-grow: 1;
+  background-color: #2b2b2b;
+  border-radius: 0 0 12px 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.contact-window > .base > .left-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 20px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fd0a6b;
+}
+
+.contact-window > .base > .right-section {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.contact-window > .base > .right-section > input, textarea {
+  font-family: Quicksand, sans-serif;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  resize: none;
+}
+
+.contact-window > .base > .right-section > input {
+  padding-bottom: 14px;
+}
+
+.contact-window > .base > .right-section > textarea {
+  height: 100px;
+}
+
+.contact-window > .base > .right-section > textarea::placeholder {
+  transform: translateY(6.5vh);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .spinner {
+    animation: spin infinite 0.5s linear;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

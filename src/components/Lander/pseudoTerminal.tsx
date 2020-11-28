@@ -17,7 +17,7 @@ export default function PseudoTerminal() {
   function getCommandResponse(cmd: string): string {
     switch (cmd.split(' ')[0]) {
       case 'ls':
-        return 'lander about experience projects';
+        return 'lander about experience projects contact';
       case 'clear':
         // Already handled else where
         return '';

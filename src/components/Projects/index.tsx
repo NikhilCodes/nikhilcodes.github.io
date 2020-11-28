@@ -53,7 +53,7 @@ export default function Projects() {
       <AnimatedHeader id={'projects'} color={'#1c2530'}>
         Personal Projects
       </AnimatedHeader>
-      <div>
+      <div style={{marginBottom: 80}}>
         <div style={{ display: 'flex', flexDirection: 'row', overflowX: 'hidden' }}>
           <div
             id={'laptop-mockup-container'}
