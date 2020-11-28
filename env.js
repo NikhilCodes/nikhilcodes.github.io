@@ -61,7 +61,7 @@ window.env = {
   "npm_config_ignore_scripts": "",
   "WINDOWPATH": "2",
   "npm_package_browserslist_development_0": "last 1 chrome version",
-  "PATH": "/tmp/yarn--1606566051560-0.17295224181913826:/home/alpha-n1khil/Code/Web/dev-portfolio/node_modules/.bin:/home/alpha-n1khil/.config/yarn/link/node_modules/.bin:/home/alpha-n1khil/.yarn/bin:/usr/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/lib/node_modules/npm/bin/node-gyp-bin:/usr/bin/node_modules/npm/bin/node-gyp-bin:/home/alpha-n1khil/.pyenv/bin:/home/alpha-n1khil/Code/Web/dev-portfolio/node_modules/.bin:/home/alpha-n1khil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/alpha-n1khil/Android/Flutter_SDK/flutter/bin:/home/alpha-n1khil/.pub-cache/bin:/home/alpha-n1khil/Android/Flutter_SDK/flutter/bin/cache/dart-sdk/bin:/home/alpha-n1khil/Android/Sdk/emulator:/home/alpha-n1khil/Android/Sdk/tools:/home/alpha-n1khil/Android/Sdk/tools/bin:/home/alpha-n1khil/Android/Sdk/platform-tools:/home/alpha-n1khil/Android/Sdk/build-tools/29.0.2",
+  "PATH": "/tmp/yarn--1606570107587-0.4765779990529415:/home/alpha-n1khil/Code/Web/dev-portfolio/node_modules/.bin:/home/alpha-n1khil/.config/yarn/link/node_modules/.bin:/home/alpha-n1khil/.yarn/bin:/usr/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/lib/node_modules/npm/bin/node-gyp-bin:/usr/bin/node_modules/npm/bin/node-gyp-bin:/home/alpha-n1khil/.pyenv/bin:/home/alpha-n1khil/Code/Web/dev-portfolio/node_modules/.bin:/home/alpha-n1khil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/alpha-n1khil/Android/Flutter_SDK/flutter/bin:/home/alpha-n1khil/.pub-cache/bin:/home/alpha-n1khil/Android/Flutter_SDK/flutter/bin/cache/dart-sdk/bin:/home/alpha-n1khil/Android/Sdk/emulator:/home/alpha-n1khil/Android/Sdk/tools:/home/alpha-n1khil/Android/Sdk/tools/bin:/home/alpha-n1khil/Android/Sdk/platform-tools:/home/alpha-n1khil/Android/Sdk/build-tools/29.0.2",
   "NODE": "/usr/bin/node",
   "INVOCATION_ID": "210943ee62014c0194bcb0990c8f4425",
   "SESSION_MANAGER": "local/pop-os:@/tmp/.ICE-unix/2405,unix/pop-os:/tmp/.ICE-unix/2405",
@@ -119,5 +119,6 @@ window.env = {
   "npm_package_dependencies_typescript": "^4.0.3",
   "INIT_CWD": "/home/alpha-n1khil/Code/Web/dev-portfolio",
   "npm_package_dependencies_react": "^17.0.1",
-  "npm_package_dependencies__types_react_dom": "^16.9.8"
+  "npm_package_dependencies__types_react_dom": "^16.9.8",
+  "EMAILJS_USERID": "user_TuoV8GY62R4ItSWBfTSfU"
 };
