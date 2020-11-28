@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -17,8 +17,8 @@ jobs:
 
     - name: Build
       run: |
-        npm install
-        npm run-script build
+        yarn install
+        yarn deploy
       env:
         REACT_APP_EMAILJS_USERID: ${{ secrets.REACT_APP_EMAILJS_USERID }}
 
