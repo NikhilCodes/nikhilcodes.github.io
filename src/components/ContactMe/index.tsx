@@ -8,7 +8,6 @@ require('dotenv').config();
 
 export default function ContactMe() {
   useEffect(() => {
-    console.log(process.env);
     emailJs.init(process.env.REACT_APP_EMAILJS_USERID ?? '');
   });
 
