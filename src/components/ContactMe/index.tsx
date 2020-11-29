@@ -78,7 +78,7 @@ export default function ContactMe() {
               </div>
               <div style={{ color: 'lightgrey', fontWeight: 400, fontSize: 14, marginBottom: 40 }}>
                 Once you press <span style={{ color: '#fd0a6b', fontWeight: 600 }}>send</span>. I will get back
-                to<br /> you within 24 hours. You can count on it.
+                to you within 24 hours. You can count on it.
               </div>
             </div>
             <div className={'right-section'}>
