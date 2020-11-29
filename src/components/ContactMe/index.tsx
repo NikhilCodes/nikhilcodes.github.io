@@ -76,7 +76,7 @@ export default function ContactMe() {
                 Contact
                 <div style={{ width: 60, height: 5, backgroundColor: '#fd0a6b', borderRadius: 2.5 }} />
               </div>
-              <div style={{ color: 'lightgrey', fontWeight: 400, fontSize: 14, marginBottom: 40, marginRight: 10 }}>
+              <div style={{ color: 'lightgrey', fontWeight: 400, fontSize: 14, marginBottom: 40, marginRight: 20 }}>
                 Once you press <span style={{ color: '#fd0a6b', fontWeight: 600 }}>send</span>. I will get back
                 to you within 24 hours. You can count on it.
               </div>
