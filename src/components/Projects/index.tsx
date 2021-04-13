@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import AnimatedHeader from "../fragments/AnimatedHeader";
+import AnimatedHeader from '../fragments/AnimatedHeader';
 import './styles.css';
 import laptopMockup from '../../assets/laptop-mockup.png';
 import mobileMockup from '../../assets/mobile-mockup.png';
@@ -11,13 +11,13 @@ import {
   FaPython,
   FaReact,
   FaWifi,
-  FcScatterPlot,
-  SiFlutter,
-  SiPostgresql,
+  FcScatterPlot, SiDocker,
+  SiFlutter, SiMysql,
+  SiPostgresql, SiRaspberrypi,
   SiSpring,
   SiTensorflow,
-} from "react-icons/all";
-import CoolButton from "../fragments/CoolButton";
+} from 'react-icons/all';
+import CoolButton from '../fragments/CoolButton';
 
 function ScreenTiles({ title, themeColor, toolIcons, projectUrl }: any) {
   return (
@@ -53,7 +53,7 @@ export default function Projects() {
       <AnimatedHeader id={'projects'} color={'#1c2530'}>
         Personal Projects
       </AnimatedHeader>
-      <div style={{marginBottom: 80}}>
+      <div style={{ marginBottom: 80 }}>
         <div style={{ display: 'flex', flexDirection: 'row', overflowX: 'hidden' }}>
           <div
             id={'laptop-mockup-container'}
@@ -61,6 +61,12 @@ export default function Projects() {
           >
             <img id={'laptop-mockup'} alt={'laptop-mockup'} src={laptopMockup} />
             <div id={'laptop-content'}>
+              <ScreenTiles
+                title={'ExpZen'}
+                toolIcons={[<FaAngular />, <SiSpring />, <SiMysql />, <SiRaspberrypi />, <SiDocker />]}
+                themeColor={'#001979'}
+                projectUrl={'https://github.com/NikhilCodes/ExpZen'}
+              />
               <ScreenTiles
                 title={'Curious.io'}
                 toolIcons={[<SiSpring />, <FaAngular />, <SiPostgresql />]}
@@ -72,12 +78,6 @@ export default function Projects() {
                 toolIcons={[<FaReact />, <DiMongodb />, <FaNodeJs />]}
                 themeColor={'#cf8a00'}
                 projectUrl={'https://github.com/NikhilCodes/MERN-tasker'}
-              />
-              <ScreenTiles
-                title={'Quizily'}
-                toolIcons={[<FaReact />, <DiMongodb />, <FaNodeJs />]}
-                themeColor={'#001979'}
-                projectUrl={'https://github.com/NikhilCodes/Quizily'}
               />
               <ScreenTiles
                 title={'PathFinder Simulation'}
@@ -129,7 +129,7 @@ export default function Projects() {
                 height: '77vh',
                 flexDirection: 'column',
                 justifyContent: 'flex-start',
-                alignItems: 'center'
+                alignItems: 'center',
               }}>
               <div style={{
                 width: '100%',
@@ -177,7 +177,7 @@ export default function Projects() {
         <div
           style={{
             display: 'flex',
-            justifyContent: 'center'
+            justifyContent: 'center',
           }}
         >
           <CoolButton
