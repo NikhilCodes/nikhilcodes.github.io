@@ -10,7 +10,7 @@ export default function About() {
         textAlign: 'left',
         padding: '0 14%'
       }}>
-        I am an undergraduate student in the Department of computer Science at KIIT University, Bhubaneswar graduating in
+        I am an undergraduate student in the Department of Computer Science at KIIT University, Bhubaneswar graduating in
         May 2023.
         <br /><br />
         Being an Open-Source enthusiast, I have built a lot of full blown projects which need knowledge in Software
