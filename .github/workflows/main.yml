@@ -21,6 +21,7 @@ jobs:
         yarn build
       env:
         REACT_APP_EMAILJS_USERID: ${{ secrets.REACT_APP_EMAILJS_USERID }}
+        REACT_APP_GA_TRACKING_ID: ${{ secrets.REACT_APP_GA_TRACKING_ID }}
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
