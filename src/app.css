@@ -113,10 +113,10 @@ button:focus:not(:focus-visible) {
 
 @font-face {
 	font-family: 'Helvetica Outline';
-	src: url('fonts/Helvetica LT 75 Bold Outline.ttf') format('truetype');
+	src: url('/fonts/Helvetica LT 75 Bold Outline.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'Helvetica';
-	src: url('fonts/Nimbus Sans Becker PBla Regular.otf') format('opentype');
+	src: url('/fonts/Nimbus Sans Becker PBla Regular.otf') format('opentype');
 }
