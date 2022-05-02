@@ -43,7 +43,7 @@
         <p>
             I worked with the <a href="https://www.cataloging.ai/">Cataloging AI</a>
             product development team. I was responsible for the development of the
-            <a href="https://www.cataloging.ai/"></a>
+            <a href="https://www.cataloging.ai/">Cataloging.ai</a>
             <a href="https://www.cataloging.ai/">API</a> and
             <a href="https://www.cataloging.ai/">Web</a>
             applications.
