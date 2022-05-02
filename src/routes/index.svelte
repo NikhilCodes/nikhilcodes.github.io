@@ -4,6 +4,8 @@
 
 <script lang="ts">
   import { fly, fade } from 'svelte/transition';
+
+  const resumeUrl = 'https://drive.google.com/file/d/12bPRltx8CkZBWIpU7O-Y4OBB5dYXeMc-/view?usp=sharing';
 </script>
 
 <svelte:head>
@@ -25,7 +27,7 @@
          class="rounded-full radial-gradient bg-purple-500 bg-opacity-70 absolute left-96 top-32 w-96 h-96 animate-pulse"></div>
     <div in:fade
          out:fade
-         class="rounded-full radial-gradient bg-cyan-300 absolute -top-52 -right-52 w-96 h-96 animate-pulse"></div>
+         class="rounded-full radial-gradient bg-cyan-300 absolute -top-52 -right-0 w-96 h-96 animate-pulse"></div>
     <!---->
 
     <div class="z-10 p-20"
@@ -41,7 +43,7 @@
             <h1 style="font-weight: 300;font-family: 'Helvetica Outline',serif" class="-ml-7 h-20">Developer.</h1>
         </div>
 
-        <a href="/" target="_blank" class="flex items-center space-x-2 mt-10">
+        <a href="{resumeUrl}" target="_blank" class="flex items-center space-x-2 mt-10">
             <span>Checkout Resume</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                  class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
@@ -64,6 +66,11 @@
         <div class="items-start content-center flex flex-col justify-center">
             <div>React | Angular | NodeJS | Svelte | Flutter | SpringBoot</div>
             <div class="italic">Full Stack Development</div>
+        </div>
+    </div>
+    <div class="overflow-hidden right-0 bottom-0 absolute h-96 w-96">
+        <div class="absolute right-0 bottom-0 -rotate-45 w-96 py-3 bg-gray-700 shadow-xl shadow-gray-300 -translate-y-14 translate-x-24 text-white text-center flex flex-col items-center" style="font-family: sans-serif">
+            Cybernetically engineered<span>using <a class="font-bold" href="https://svelte.dev/">Svelte</a></span>
         </div>
     </div>
 </section>
