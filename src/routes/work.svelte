@@ -4,7 +4,7 @@
 
 <svelte:head>
     <title>Work History</title>
-    <meta name="description" content="About this app"/>
+    <meta name="description" content="About Nikhil Nayak"/>
 </svelte:head>
 
 

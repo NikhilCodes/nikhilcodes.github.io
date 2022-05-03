@@ -9,8 +9,8 @@
 </script>
 
 <svelte:head>
-    <title>Home</title>
-    <meta name="description" content="Svelte demo app"/>
+    <title>NikhilCodes</title>
+    <meta name="description" content="Nikhil Nayak's Portfolio [Github: @NikhilCodes]"/>
 </svelte:head>
 
 <section>
