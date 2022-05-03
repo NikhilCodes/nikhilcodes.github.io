@@ -40,7 +40,7 @@
 
         <div class="mb-2">
             <h1 class="h-20">Nikhil Nayak</h1>
-            <h1 style="font-weight: 300;font-family: 'Helvetica Outline',serif" class="-ml-7 h-20">Developer.</h1>
+            <h1 style="font-weight: 300;font-family: 'Helvetica Outline',serif" class="text-left h-20">Developer.</h1>
         </div>
 
         <a href="{resumeUrl}" target="_blank" class="flex items-center space-x-2 mt-10">
