@@ -31,7 +31,7 @@
     <!---->
 
     <div class="z-10 p-20"
-         out:fly="{{ opacity: 0, x: -500, duration: 300, delay: 300 }}"
+         out:fly="{{ opacity: 0, x: -500, duration: 300, delay: 0 }}"
          in:fly="{{ opacity: 1, x: -500, duration: 300, delay: 300 }}">
         <h3 class="flex items-center">
             <div class="h-0.5 w-16 bg-black mr-4"></div>
