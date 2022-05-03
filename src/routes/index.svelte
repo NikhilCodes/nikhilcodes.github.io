@@ -68,7 +68,9 @@
             <div class="italic">Full Stack Development</div>
         </div>
     </div>
-    <div class="overflow-hidden right-0 bottom-0 absolute h-96 w-96">
+    <div class="overflow-hidden right-0 bottom-0 absolute h-96 w-96"
+        in:fly="{{x: 300, y: 300, duration: 600}}"
+        out:fly="{{ x: 300, y: 300, duration: 600 }}">
         <div class="absolute right-0 bottom-0 -rotate-45 w-96 py-3 bg-gray-700 shadow-xl shadow-gray-300 -translate-y-14 translate-x-24 text-white text-center flex flex-col items-center" style="font-family: sans-serif">
             Cybernetically engineered<span>using <a class="font-bold" href="https://svelte.dev/">Svelte</a></span>
         </div>

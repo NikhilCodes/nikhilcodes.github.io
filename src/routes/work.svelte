@@ -11,15 +11,18 @@
 <!--  Weird Artifacts  -->
 <div in:fade
      out:fade
-     class="transition h-48 w-48 bg-cyan-300 rounded-3xl absolute spin-1 flex items-center justify-center content-center">
+     class="transition h-48 w-48 bg-cyan-300 rounded-3xl absolute spin-1 flex items-center justify-center content-center"
+     style="transform: rotateZ(25deg)">
     <div class="h-20 w-20 shadow-xl shadow-cyan-700 bg-cyan-800 rounded-2xl ping"></div>
 </div>
 <div in:fade
      out:fade
-     class="h-32 w-32 bg-transparent border-amber-400 border-4 rounded-2xl absolute spin-2 right-10 bottom-20 "></div>
+     class="h-32 w-32 bg-transparent border-amber-400 border-4 rounded-2xl absolute spin-2 right-10 bottom-20"
+     style="transform: rotateZ(-35deg)"></div>
 <div in:fade
      out:fade
-     class="h-32 w-32 bg-gradient-to-br to-teal-300 from-green-600 rounded-2xl absolute spin-3 right-32 top-36"></div>
+     class="h-32 w-32 bg-gradient-to-br to-teal-300 from-green-600 rounded-2xl absolute spin-3 right-32 top-36"
+     style="transform: rotateZ(-5deg)"></div>
 <!---->
 <div class="content"
      out:fade
