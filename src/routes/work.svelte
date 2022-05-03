@@ -136,6 +136,10 @@
         margin: var(--column-margin-top) auto 0 auto;
     }
 
+    h2 {
+        font-family: 'Nimbus San L Bold', serif;
+    }
+
     .spin-1 {
         animation: spin-1 5s ease-in-out infinite;
     }

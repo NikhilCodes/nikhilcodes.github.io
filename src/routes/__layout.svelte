@@ -21,7 +21,7 @@
 		padding: 1rem;
 		width: 100%;
 		max-width: 1400px;
-		min-height: 90vh;
+		min-height: 87vh;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
