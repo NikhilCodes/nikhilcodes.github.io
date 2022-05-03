@@ -117,6 +117,11 @@ button:focus:not(:focus-visible) {
 }
 
 @font-face {
-	font-family: 'Helvetica';
-	src: url('/fonts/Nimbus Sans Becker PBla Regular.otf') format('opentype');
+	font-family: 'Nimbus San L Bold';
+	src: url('/fonts/NimbusSanL-Bol.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Nimbus San L Reg';
+	src: url('/fonts/NimbusSanL-Reg.otf') format('opentype');
 }

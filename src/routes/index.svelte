@@ -39,7 +39,7 @@
         </h3>
 
         <div class="mb-2">
-            <h1 class="h-20">Nikhil Nayak</h1>
+            <h1 class="h-20" style="font-family: 'Nimbus San L Bold',serif">Nikhil Nayak</h1>
             <h1 style="font-weight: 300;font-family: 'Helvetica Outline',serif" class="text-left h-20">Developer.</h1>
         </div>
 
@@ -71,7 +71,7 @@
     <div class="overflow-hidden right-0 bottom-0 absolute h-96 w-96"
         in:fly="{{x: 300, y: 300, duration: 600}}"
         out:fly="{{ x: 300, y: 300, duration: 600 }}">
-        <div class="absolute right-0 bottom-0 -rotate-45 w-96 py-3 bg-gray-700 shadow-xl shadow-gray-300 -translate-y-14 translate-x-24 text-white text-center flex flex-col items-center" style="font-family: sans-serif">
+        <div class="absolute right-0 bottom-0 -rotate-45 w-96 py-3 bg-gray-700 shadow-xl shadow-gray-300 -translate-y-14 translate-x-24 text-white text-center flex flex-col items-center font-thin">
             Cybernetically engineered<span>using <a class="font-bold" href="https://svelte.dev/">Svelte</a></span>
         </div>
     </div>
