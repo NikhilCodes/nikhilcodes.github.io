@@ -136,7 +136,7 @@
         margin: var(--column-margin-top) auto 0 auto;
     }
 
-    h2 {
+    h1, h2 {
         font-family: 'Nimbus San L Bold', serif;
     }
 
