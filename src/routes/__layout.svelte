@@ -25,4 +25,10 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
+
+	@media (max-width: 768px) {
+		main {
+			min-height: 84vh;
+		}
+	}
 </style>

@@ -111,6 +111,18 @@ button:focus:not(:focus-visible) {
 	z-index: -1;
 }
 
+@media (max-width: 720px) {
+	.hide-if-mobile {
+		display: none;
+	}
+}
+
+@media (min-width: 720px) {
+	.hide-if-desktop {
+		display: none;
+	}
+}
+
 @font-face {
 	font-family: 'Helvetica Outline';
 	src: url('/fonts/Helvetica LT 75 Bold Outline.ttf') format('truetype');

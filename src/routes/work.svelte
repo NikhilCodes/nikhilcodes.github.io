@@ -11,20 +11,20 @@
 <!--  Weird Artifacts  -->
 <div in:fade
      out:fade
-     class="transition h-48 w-48 bg-cyan-300 rounded-3xl absolute spin-1 flex items-center justify-center content-center"
+     class="transition h-48 w-48 bg-cyan-300 rounded-3xl absolute spin-1 flex items-center justify-center content-center z-0"
      style="transform: rotateZ(25deg)">
     <div class="h-20 w-20 shadow-xl shadow-cyan-700 bg-cyan-800 rounded-2xl ping"></div>
 </div>
 <div in:fade
      out:fade
-     class="h-32 w-32 bg-transparent border-amber-400 border-4 rounded-2xl absolute spin-2 right-10 bottom-20"
+     class="h-32 w-32 bg-transparent border-amber-400 border-4 rounded-2xl absolute spin-2 right-10 bottom-20 z-0"
      style="transform: rotateZ(-35deg)"></div>
 <div in:fade
      out:fade
-     class="h-32 w-32 bg-gradient-to-br to-teal-300 from-green-600 rounded-2xl absolute spin-3 right-32 top-36"
+     class="h-32 w-32 bg-gradient-to-br to-teal-300 from-green-600 rounded-2xl absolute spin-3 right-32 top-36 z-0"
      style="transform: rotateZ(-5deg)"></div>
 <!---->
-<div class="content"
+<div class="content z-10"
      out:fade
      in:fly="{{ y: 1000, duration: 300, delay: 500 }}"
 >
