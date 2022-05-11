@@ -5,7 +5,7 @@
 <script lang="ts">
   import { fly, fade } from 'svelte/transition';
 
-  const resumeUrl = 'https://drive.google.com/file/d/12bPRltx8CkZBWIpU7O-Y4OBB5dYXeMc-/view?usp=sharing';
+  const resumeUrl = 'https://drive.google.com/file/d/1Tj2El19f8tCIQGrPFMRGERX2T1zLauwu/view?usp=sharing';
 </script>
 
 <svelte:head>
