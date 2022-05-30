@@ -40,61 +40,61 @@
 
     <br/>
     <article class="prose-headings:font-extrabold prose-headings:prose-2xl">
-<!--        <h2>-->
-<!--            <a href="https://www.cataloging.ai/">Cataloging.AI</a> (Formerly <a href="https://textmercato.com">TextMercato</a>)-->
-<!--        </h2>-->
+        <h2>
+            <a href="https://www.cataloging.ai/">Cataloging.AI</a> (Formerly <a href="https://textmercato.com">TextMercato</a>)
+        </h2>
 
-<!--        <p>-->
-<!--            I worked with the <a href="https://www.cataloging.ai/">Cataloging AI</a>-->
-<!--            product development team. I was responsible for the development of the-->
-<!--            <a href="https://www.cataloging.ai/">Cataloging.ai</a>-->
-<!--            <a href="https://www.cataloging.ai/">API</a> and-->
-<!--            <a href="https://www.cataloging.ai/">Web</a>-->
-<!--            applications.-->
-<!--        </p>-->
-<!--        <p class="mt-2">-->
-<!--            <span class="font-light text-gray-500"><span class="p-1.5 bg-gray-200 rounded">02/2022</span> - <span-->
-<!--                    class="p-1.5 bg-gray-200 rounded">Present</span></span>-->
-<!--        </p>-->
+        <p>
+            I worked with the <a href="https://www.cataloging.ai/">Cataloging AI</a>
+            product development team. I was responsible for the development of the
+            <a href="https://www.cataloging.ai/">Cataloging.ai</a>
+            <a href="https://www.cataloging.ai/">API</a> and
+            <a href="https://www.cataloging.ai/">Web</a>
+            applications.
+        </p>
+        <p class="mt-2">
+            <span class="font-light text-gray-500"><span class="p-1.5 bg-gray-200 rounded">02/2022</span> - <span
+                    class="p-1.5 bg-gray-200 rounded">Present</span></span>
+        </p>
 
-<!--        <div class="flex space-x-4 mt-2">-->
-<!--            <span>Tools/Tech Used:</span>-->
-<!--            <span class="flex space-x-2">-->
-<!--                <img src="icons/react.svg" alt="react" height="20" width="20">-->
-<!--                <img src="icons/angular.svg" alt="angular" height="20" width="20">-->
-<!--                <img src="icons/nodejs.svg" alt="nodejs" height="20" width="20">-->
-<!--                <img src="icons/mongodb.svg" alt="mongodb" height="20" width="20">-->
-<!--                <img src="icons/aws.svg" alt="aws" height="20" width="20">-->
-<!--            </span>-->
-<!--        </div>-->
+        <div class="flex space-x-4 mt-2">
+            <span>Tools/Tech Used:</span>
+            <span class="flex space-x-2">
+                <img src="icons/react.svg" alt="react" height="20" width="20">
+                <img src="icons/angular.svg" alt="angular" height="20" width="20">
+                <img src="icons/nodejs.svg" alt="nodejs" height="20" width="20">
+                <img src="icons/mongodb.svg" alt="mongodb" height="20" width="20">
+                <img src="icons/aws.svg" alt="aws" height="20" width="20">
+            </span>
+        </div>
 
 
-<!--        <h2 class="mt-8">-->
-<!--            <a href="https://presence.is/">Presence</a>-->
-<!--        </h2>-->
+        <h2 class="mt-8">
+            <a href="https://presence.is/">Presence</a>
+        </h2>
 
-<!--        <p>-->
-<!--            I was responsible for the development of the-->
-<!--            <a href="https://gigsy.in/">API</a> and Overall architecture.-->
-<!--            Actively worked with <a href="https://supabase.com">Supabase</a> to build complex features fast.-->
-<!--            Dealt with various complex Postgres RPC functions on the backend.-->
-<!--            Did a bunch of optimization of core endpoints that were used by the client app more frequently.-->
-<!--        </p>-->
+        <p>
+            I was responsible for the development of the
+            <a href="https://gigsy.in/">API</a> and Overall architecture.
+            Actively worked with <a href="https://supabase.com">Supabase</a> to build complex features fast.
+            Dealt with various complex Postgres RPC functions on the backend.
+            Did a bunch of optimization of core endpoints that were used by the client app more frequently.
+        </p>
 
-<!--        <p class="mt-2">-->
-<!--            <span class="font-light text-gray-500"><span class="p-1.5 bg-gray-200 rounded">11/2021</span> - <span-->
-<!--                    class="p-1.5 bg-gray-200 rounded">Present</span></span>-->
-<!--        </p>-->
+        <p class="mt-2">
+            <span class="font-light text-gray-500"><span class="p-1.5 bg-gray-200 rounded">11/2021</span> - <span
+                    class="p-1.5 bg-gray-200 rounded">Present</span></span>
+        </p>
 
-<!--        <div class="flex space-x-4 mt-2">-->
-<!--            <span>Tools/Tech Used:</span>-->
-<!--            <span class="flex space-x-2">-->
-<!--                <img src="icons/nodejs.svg" alt="nodejs" height="20" width="20">-->
-<!--                <img src="icons/postgresql.svg" alt="nodejs" height="20" width="20">-->
-<!--                <img src="icons/flutter.svg" alt="flutter" height="20" width="20">-->
-<!--                <img src="icons/aws.svg" alt="aws" height="20" width="20">-->
-<!--            </span>-->
-<!--        </div>-->
+        <div class="flex space-x-4 mt-2">
+            <span>Tools/Tech Used:</span>
+            <span class="flex space-x-2">
+                <img src="icons/nodejs.svg" alt="nodejs" height="20" width="20">
+                <img src="icons/postgresql.svg" alt="nodejs" height="20" width="20">
+                <img src="icons/flutter.svg" alt="flutter" height="20" width="20">
+                <img src="icons/aws.svg" alt="aws" height="20" width="20">
+            </span>
+        </div>
 
 
         <h2 class="mt-8">
