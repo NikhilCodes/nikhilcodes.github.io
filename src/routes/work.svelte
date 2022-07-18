@@ -41,7 +41,7 @@
     <br/>
     <article class="prose-headings:font-extrabold prose-headings:prose-2xl">
         <h2>
-            <a href="https://www.cataloging.ai/">Cataloging.AI</a> (Formerly <a href="https://textmercato.com">TextMercato</a>)
+            <a href="https://www.cataloging.ai/">Cataloging.AI</a>
         </h2>
 
         <p>
@@ -68,6 +68,29 @@
             </span>
         </div>
 
+        <h2 class="mt-8">
+            <a href="https://pocketbits.in/">Pocketbits</a>
+        </h2>
+
+        <p>
+            I was responsible for the development of the API
+            Actively worked with AWS to deploy.
+            Wrote complex mongo queries and utilised various optimisation techniques.
+        </p>
+
+        <p class="mt-2">
+            <span class="font-light text-gray-500"><span class="p-1.5 bg-gray-200 rounded">03/2022</span> - <span
+                    class="p-1.5 bg-gray-200 rounded">Present</span></span>
+        </p>
+
+        <div class="flex space-x-4 mt-2">
+            <span>Tools/Tech Used:</span>
+            <span class="flex space-x-2">
+                <img src="icons/java.svg" alt="nodejs" height="20" width="20">
+                <img src="icons/mongodb.svg" alt="nodejs" height="20" width="20">
+                <img src="icons/aws.svg" alt="aws" height="20" width="20">
+            </span>
+        </div>
 
         <h2 class="mt-8">
             <a href="https://presence.is/">Presence</a>
