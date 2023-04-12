@@ -31,6 +31,24 @@ body {
 	/*);*/
 }
 
+header {
+	position: fixed;
+	width: 100vw;
+	z-index: 200;
+	border-bottom: 1.5pt solid rgba(255, 255, 255, 0.2);
+	background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(71, 82, 255, 0.11) 100%);
+	overflow: clip;
+}
+header > .blur-bg {
+	width: 100%;
+	height: 100%;
+	backdrop-filter: blur(10px);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
 body::before {
 	content: '';
 	width: 80vw;
@@ -136,4 +154,70 @@ button:focus:not(:focus-visible) {
 @font-face {
 	font-family: 'Nimbus San L Reg';
 	src: url('/fonts/NimbusSanL-Reg.otf') format('opentype');
+}
+
+.spin-1 {
+	animation: spin-1 5s ease-in-out infinite;
+}
+
+
+.spin-2 {
+	animation: spin-2 5.5s ease-in-out infinite;
+}
+
+.spin-3 {
+	animation: spin-3 3s ease-in-out infinite;
+}
+
+.ping {
+	animation: ping 5s ease-out infinite;
+}
+
+/*Animate goes here*/
+@keyframes ping {
+	0% {
+		transform: translateY(-10px);
+	}
+	50% {
+		transform: translateY(10px);
+	}
+	100% {
+		transform: translateY(-10px);
+	}
+}
+
+@keyframes spin-1 {
+	0% {
+		transform: rotate(25deg);
+	}
+	50% {
+		transform: rotate(15deg);
+	}
+	100% {
+		transform: rotate(25deg);
+	}
+}
+
+@keyframes spin-2 {
+	0% {
+		transform: rotate(-35deg);
+	}
+	50% {
+		transform: rotate(-20deg);
+	}
+	100% {
+		transform: rotate(-35deg);
+	}
+}
+
+@keyframes spin-3 {
+	0% {
+		transform: rotate(-5deg);
+	}
+	50% {
+		transform: rotate(-10deg);
+	}
+	100% {
+		transform: rotate(-5deg);
+	}
 }

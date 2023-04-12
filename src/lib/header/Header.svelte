@@ -44,6 +44,7 @@
         <div class="bg-black h-0.5 w-1.5"></div>
         <a href="work">History</a>
     </div>
+    <div class="blur-bg"></div>
 </header>
 
 <style>

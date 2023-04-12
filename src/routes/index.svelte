@@ -5,7 +5,7 @@
 <script lang="ts">
   import { fly, fade } from 'svelte/transition';
 
-  const resumeUrl = 'https://drive.google.com/file/d/14FZ7-8Sa24Y7cwXmm_WRbZg1P38D4iKP/view?usp=sharing';
+  const resumeUrl = 'https://drive.google.com/file/d/15mjk0kcteQUkcnZ0Y2XHtqki2QKZrc4J/view?usp=sharing';
 </script>
 
 <svelte:head>
@@ -29,10 +29,16 @@
         <div in:fade
              out:fade
              class="rounded-full radial-gradient bg-cyan-300 absolute -top-52 -right-0 w-96 h-96 animate-pulse hide-if-mobile"></div>
+        <div in:fade
+             out:fade
+             class="transition h-48 w-48 bg-cyan-300 rounded-3xl absolute spin-1 flex items-center justify-center content-center z-0 right-32"
+             style="transform: rotateZ(25deg)">
+            <div class="h-20 w-20 shadow-xl shadow-cyan-700 bg-cyan-800 rounded-2xl ping"></div>
+        </div>
     </div>
     <!---->
 
-    <div class="z-10 section-inner p-10"
+    <div class="z-10 section-inner p-10 mt-20"
          out:fly="{{ opacity: 0, x: -500, duration: 300, delay: 0 }}"
          in:fly="{{ opacity: 1, x: -500, duration: 300, delay: 300 }}">
         <h3 class="flex items-center">
@@ -42,7 +48,7 @@
 
         <div class="mb-2">
             <h1 class="h-20 text-left" style="font-family: 'Nimbus San L Bold',serif">Nikhil Nayak</h1>
-            <h1 style="font-weight: 300;font-family: 'Helvetica Outline',serif" class="text-left h-20">Developer.</h1>
+            <h1 style="font-weight: 300;font-family: 'Helvetica Outline',serif" class="text-left h-20">Polyglot Developer.</h1>
         </div>
 
         <a href="{resumeUrl}" target="_blank" class="flex items-center space-x-2 mt-10">
@@ -66,7 +72,7 @@
         </div>
 
         <div class="items-start content-center flex flex-col justify-center">
-            <div>React | Angular | NodeJS | Svelte | Flutter | SpringBoot</div>
+            <div>React | Angular | NodeJS | Docker | Flutter | SpringBoot | Golang</div>
             <div class="italic">Full Stack Development</div>
         </div>
     </div>
