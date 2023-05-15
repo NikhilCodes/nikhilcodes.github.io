@@ -33,7 +33,7 @@ body {
 
 header {
 	position: fixed;
-	width: 100vw;
+	min-width: 100vw;
 	z-index: 200;
 	border-bottom: 1.5pt solid rgba(255, 255, 255, 0.2);
 	background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(71, 82, 255, 0.11) 100%);
